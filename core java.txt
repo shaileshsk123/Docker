@@ -1,0 +1,150 @@
+1. what is java ?
+ java is a programming language and a platform. Java is a high level, robust, object-oriented and secure programming language.
+
+2.java simple program ?
+public class Simple {
+public static void main(String args[]){
+System.out.println("Hello world");
+}
+}.
+
+3.Features of Java ?
+Simple , Robust , Secure , high performance , multithreaded , platform independent.
+
+4. class keyword is used to declare class in java
+   public keyword is access modifier that represents visibility, ie visible to all.
+   The core advantage of the static method is that there is no need to create an object to invoke the static method.
+   Void is return type method it mean it does not return any value.
+   main represents starting point of program.
+   
+5.The JVM performs the following main tasks:
+
+Loads code
+Verifies code
+Executes code
+Provides runtime environment.
+
+6. Variable ?
+ Variable is name of reserved area allocated in memory. in other words name of memery location.
+
+7.Types of variable ?
+.local variable = declared inside body of method.
+
+.static variable = variable declared as static is called static variable.
+.instance variable =declared inside class but outside body of method.
+
+Example of variables .
+public class A
+{
+static int m=100;//static variable
+void method()
+{
+int n=90;//local variable
+}
+
+public static void main(String args[])
+{
+int data=50;//instance variable
+}
+}//end of class
+
+
+Data types are the diffrent sizes and values which can be stored in variable. 
+
+there are 2 types of data types 
+1 primitive data type =boolean , char ,int,byte,short,long,float,double. 
+2 non primitive data type=classes , interfaces and arrays.
+
+Operator in Java is a symbol that is used to perform operations. For example: +, -, *, / etc.
+
+There are many types of operators in Java which are given below:
+
+Unary Operator,
+Arithmetic Operator,
+Shift Operator,
+Relational Operator,
+Bitwise Operator,
+Logical Operator,
+Ternary Operator and
+Assignment Operator.
+
+Java provides three types of control flow statements.
+
+1.Decision Making statements
+if statements
+switch statement
+2.Loop statements
+do while loop
+while loop
+for loop
+for-each loop
+3.Jump statements
+break statement
+continue statement
+
+..OOPs (Object-Oriented Programming System)
+Object means a real-world entity such as a pen, chair, table, computer, watch, etc. Object-Oriented Programming is a methodology or paradigm to design a program using classes and objects.
+It simplifies software development and maintenance by providing some concepts 
+
+Object
+Class
+Inheritance
+Polymorphism
+Abstraction
+Encapsulation
+ 
+
+.Object =
+
+object is entity which has state and behavior . ex , chair , pen etc
+
+Example: A dog is an object because it has states like color, name, breed, etc. as well as behaviors like wagging the tail, barking, eating, etc.
+
+.class =
+collection of object is class . it is logical entity. class doesnt consume ant space.
+
+.Inheritance =
+
+when one object acquires all the properties and behaviour of parent object,it is known as inheritance. It provides code reusability . It is used to achieve run time polymorphism.
+
+.polymorphism =
+
+when one task is performed in diffrent ways it is know as polymorphism .
+In java we use method overloading and method overriding to achieve polymorphism.
+
+.Abstraction =
+
+Hiding internal details and showing functionality is know as abstraction.
+In java we use abstract class and interface to achieve Abstraction
+
+.Encapulation=
+Binding (or wrapping) code and data together into a single unit are known as Encapulation For example, a capsule, it is wrapped with different medicines.
+
+1) OOPs makes development and maintenance easier, whereas, in a procedure-oriented programming language, it is not easy to manage if code grows as project size increases.
+
+2) OOPs provides data hiding, whereas, in a procedure-oriented programming language, global data can be accessed from anywhere.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
